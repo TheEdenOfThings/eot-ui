@@ -1,0 +1,27 @@
+<XAIT>
+<versionNumber>200</versionNumber>
+	<AbstractService>
+	<svcName>Pro:Centric Application</svcName>
+	<svcId>0x1204</svcId>
+	<isAutoSelect>true</isAutoSelect>
+		<ApplicationList>
+			<Application>
+			<appName>Eden of Things</appName>
+				<applicationIdentifier>
+					<orgId>1</orgId>
+					<appId>1</appId>
+				</applicationIdentifier>
+				<applicationDescriptor>
+					<type>Hcap-h</type>
+					<controlCode>AUTOSTART</controlCode>
+					<visibility>NOT_VISIBLE_USERS</visibility>
+					<priority>255</priority>
+					<version>0</version>
+				</applicationDescriptor>
+				<HcapDescriptor>
+					<url>http://192.168.0.104/eot/</url>
+				</HcapDescriptor>
+			</Application>
+		</ApplicationList>
+	</AbstractService>
+</XAIT>

@@ -1,0 +1,27 @@
+/* Eden of Things UI CSS */
+
+body
+{
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+    width: 1280px;
+    height: 720px;
+}
+
+h1
+{
+    text-align: center;
+}
+
+#test
+{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left: 440px;
+    top: 300px;
+    border: solid white 1px;
+    text-align: center;
+    font-size: 30px;
+}
