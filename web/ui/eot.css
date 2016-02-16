@@ -76,7 +76,7 @@ div.reading
 {	
 	position:relative;
 	float:right;
-	padding-top:20px;
+	padding-top:14px;
 	padding-right:15px;
 	top:16px;
 	font-size:40px;
@@ -99,7 +99,7 @@ div.icon
 	background-repeat:no-repeat;
 	height:56px;
 	width:42px;
-	top:16px;
+	top:15px;
 	left:5px;
 }
 
