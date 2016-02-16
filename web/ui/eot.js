@@ -33,7 +33,7 @@ function get_data(callback)
 {
   $.ajax
   ({
-    url: "http://10.255.253.32/api/sensors",
+    url: "http://178.62.121.17/api/sensors",
     dataType: "json",
     error:function(jqXHR, textStatus, errorThrown)
     {
