@@ -19,50 +19,62 @@ function get_value(id, callback)
   });
 }
 
-function create_location(title, temp, humidity)
+function create_reading(parent,reading_class, icon_class,value)
 {
+	
+	var reading = $("<div/>");
+	reading.attr("class", "reading "+reading_class);
+	reading.text(value);
+	icon = $("<div/>");
+ 	icon.attr("class", icon_class); 
+	reading.append (icon); 
+	parent.append(reading);
+}
 
+function create_location(side, title, temp, humidity)
+{
+	var location = $("<div/>");
+	location.attr("class", "location");
+	side.append(location);
 
+	var location_title = $("<div/>");
+	location_title.attr("class", "location_title");
+	location_title.text(title);
+	location.append(location_title);
+	
 
+	create_reading(location,"reading_temp",
+			"temperature_icon",temp);
+	
+	create_reading(location,"reading_humidity",
+			"humidity_icon",humidity);
+		
+
+	
+
+}
+
+function start()
+{
+	var left = $("#screen1_left");
+	var right = $("#screen1_right");
+
+	create_location(left, "Waterfall", "32.6", "93%");
+	
+	create_location(left, "Balcony", "31.8", "89%");
+
+	create_location(right, "Entrance", "18.5", "38%");
+
+	create_location(right, "Theatre", "18.2", "43%");
 }
 
 // Startup function
 $(function()
   {
-
-setTimeout(function(){location.reload();},30000);
-
-	var location1 = $("<div/>");
-	location1.attr("id", "location_1");
-	location1.attr("class", "location");
-	$("#screen1_left").append(location1);
-
-	var location_title = $("<div/>");
-	location_title.attr("class", "location_title");
-	location_title.text("Waterfall");
-	location1.append(location_title);
+	setTimeout(function(){location.reload();},30000);
+	start();
 	
-	var reading_temp = $("<div/>");
-	reading_temp.attr("class", "reading reading_temp");
-	reading_temp.text("32.6");
-	temperature_icon = $("<div/>");
- 	temperature_icon.attr("class", "temperature_icon"); 
-	reading_temp.append (temperature_icon); 
-	location1.append(reading_temp);	
-
-	var reading_humidity = $("<div/>");
-	reading_humidity.attr ("class", "reading reading_humidity"); 
-	reading_humidity.text ("93%");
-	humidity_icon = $("<div/>");
- 	humidity_icon.attr("class", "humidity_icon"); 
-	reading_humidity.append (humidity_icon); 
-	location1.append(reading_humidity);
-	
-	 
-
-
-	
-
-
   });
+
+
 
