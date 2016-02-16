@@ -4,34 +4,30 @@
 
 function create_reading(parent,reading_class, icon_class,value)
 {
-	
-	var reading = $("<div/>");
-	reading.attr("class", "reading "+reading_class);
-	reading.text(value);
-	icon = $("<div/>");
- 	icon.attr("class", icon_class); 
-	reading.append (icon); 
-	parent.append(reading);
+  
+  var reading = $("<div/>");
+  reading.attr("class", "reading "+reading_class);
+  reading.text(value);
+  icon = $("<div/>");
+  icon.attr("class", icon_class); 
+  reading.append (icon); 
+  parent.append(reading);
 }
 
-function create_location(side, title, temp, humidity)
+function create_location(side, title)
 {
-	var location = $("<div/>");
-	location.attr("class", "location");
-	side.append(location);
+  var location = $("<div/>");
+  location.attr("class", "location");
+  side.append(location);
 
-	var location_title = $("<div/>");
-	location_title.attr("class", "location_title");
-	location_title.text(title);
-	location.append(location_title);
-	
-
-	create_reading(location,"reading_temp",
-			"temperature_icon",temp);
-	
-	create_reading(location,"reading_humidity",
-			"humidity_icon",humidity);
+  var location_title = $("<div/>");
+  location_title.attr("class", "location_title");
+  location_title.text(title);
+  location.append(location_title);
+  return location;
+ 
 }
+
 
 function get_data(callback)
 {
@@ -50,25 +46,43 @@ function get_data(callback)
   });
 }
 
+
 function start()
 {
-	var left = $("#screen1_left");
-	var right = $("#screen1_right");
-	get_data(function(response)
-	{
-		console.log("got data");
-		console.log(response.length);
-		console.log(response[0].current);
-	});
+  var left = $("#screen1_left");
+  var right = $("#screen1_right");
+  var location = create_location(left, "?");
+  get_data(function(response)
+  {
+    for (var i=0; i<response.length; i++)
+    {
+      var sensor= response[i];
+
+      switch (sensor.type) 
+      {
+        case "temp":
+          create_reading(location,"reading_temp",
+          "temperature_icon",sensor.current);
+        break;
+      
+        case "humid":
+          create_reading(location,"reading_humidity",
+          "humidity_icon",sensor.current);
+        break;
+      }
+
+    }
+
+  });
 }
 
 
 // Startup function
 $(function()
   {
-	setTimeout(function(){location.reload();},30000);
-	start();
-	
+  setTimeout(function(){location.reload();},30000);
+  start();
+  
   });
 
 
