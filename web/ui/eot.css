@@ -9,19 +9,114 @@ body
     height: 720px;
 }
 
-h1
+div.screen
 {
-    text-align: center;
+	position: absolute;
+	top:0;
+	left:0;
+	width:1280px;
+	height:720px;
+	
 }
 
-#test
+
+
+div.half_screen
 {
-    position: absolute;
-    width: 400px;
-    height: 40px;
-    left: 440px;
-    top: 300px;
-    border: solid white 1px;
-    text-align: center;
-    font-size: 30px;
+	position: absolute;
+	top:0;
+	width:638px;
+	height:720px;
+	
 }
+
+div#screen1_left
+{
+	background-image: url(images/eden-tropical.jpg);
+	left:0;
+	border-right: 4px solid black;
+	
+}
+
+div#screen1_right
+{
+	background-image: url(images/eden-med.jpg);
+	right:0;
+	
+}
+
+div.location
+{	
+	margin-top:40px; 
+	margin-left:40px; 
+	width:560px;
+	height:120px;
+	background-color:black;
+	opacity: 0.7;
+	border-radius: 16px;
+	position:relative;
+
+}
+
+div.location_title
+{
+	position: absolute;
+	top:36px;
+	left:20px;
+	font-size:40px; 
+	
+}
+
+
+div.reading
+{
+	position: absolute;
+	padding-top:20px;
+	padding-right:15px;
+	top:16px;
+	font-size:40px;
+	height:68px;
+	width:140px;
+	border: 1px solid white;
+	text-align:right;
+	border-radius: 5px;
+}
+
+div.reading_temp
+{
+	left:200px;
+}
+
+div.reading_humidity
+{
+	left:380px;
+}
+
+div.temperature_icon
+{
+	position: absolute;
+	height:64px;
+	width:48px;
+	top:10px;
+	left:5px;
+	background-image:url(icons/temp.png);
+}
+
+div.humidity_icon
+{
+	position: absolute;
+	height:64px;
+	width:48px;
+	top:10px;
+	left:5px;
+	background-image:url(icons/humidity.png);
+}
+
+
+
+	
+
+
+
+
+

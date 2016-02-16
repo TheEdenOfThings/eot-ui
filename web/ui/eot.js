@@ -22,6 +22,11 @@ function get_value(id, callback)
 // Startup function
 $(function()
   {
+
+setTimeout(function(){location.reload();},30000);
+
+return;
+
     var test = $("<div/>");
     test.attr("id", "test");
     test.text("Hello, world!");
