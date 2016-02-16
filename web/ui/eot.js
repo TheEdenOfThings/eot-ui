@@ -1,23 +1,6 @@
 // Eden of Things Javascript
 
-// Fetch a value from the given sensor ID, calling callback with it
-function get_value(id, callback)
-{
-  $.ajax
-  ({
-    url: "../api/sensor.php",
-    data: {id: id},
-    dataType: "text",
-    error:function(jqXHR, textStatus, errorThrown)
-    {
-      console.log("Can't get sensor ID "+id);
-    },
-    success: function(response)
-    {
-      callback(parseFloat(response));
-    }
-  });
-}
+
 
 function create_reading(parent,reading_class, icon_class,value)
 {
@@ -48,25 +31,37 @@ function create_location(side, title, temp, humidity)
 	
 	create_reading(location,"reading_humidity",
 			"humidity_icon",humidity);
-		
+}
 
-	
-
+function get_data(callback)
+{
+  $.ajax
+  ({
+    url: "http://10.255.253.32/api/sensors",
+    dataType: "json",
+    error:function(jqXHR, textStatus, errorThrown)
+    {
+      console.log("Error "+textStatus);
+    },
+    success: function(response)
+    {
+      callback(response);
+    }
+  });
 }
 
 function start()
 {
 	var left = $("#screen1_left");
 	var right = $("#screen1_right");
-
-	create_location(left, "Waterfall", "32.6", "93%");
-	
-	create_location(left, "Balcony", "31.8", "89%");
-
-	create_location(right, "Entrance", "18.5", "38%");
-
-	create_location(right, "Theatre", "18.2", "43%");
+	get_data(function(response)
+	{
+		console.log("got data");
+		console.log(response.length);
+		console.log(response[0].current);
+	});
 }
+
 
 // Startup function
 $(function()
