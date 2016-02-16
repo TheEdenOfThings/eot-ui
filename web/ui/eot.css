@@ -1,12 +1,16 @@
 /* Eden of Things UI CSS */
-
+@font-face{
+font-family: NotoSans;
+src: url(fonts/OpenSans-CondLight.ttf);
+}
 body
 {
     color: white;
-    font-family: sans-serif;
+    font-family: NotoSans;
     background-color: black;
     width: 1280px;
     height: 720px;
+    font: 12px;
 }
 
 div.screen
@@ -69,49 +73,50 @@ div.location_title
 
 
 div.reading
-{
-	position: absolute;
+{	
+	position:relative;
+	float:right;
 	padding-top:20px;
 	padding-right:15px;
 	top:16px;
 	font-size:40px;
 	height:68px;
-	width:140px;
+	width:100px;
 	border: 1px solid white;
 	text-align:right;
 	border-radius: 5px;
+	margin-right:10px;
+	
 }
 
-div.reading_temp
-{
-	left:200px;
-}
 
-div.reading_humidity
-{
-	left:380px;
-}
 
-div.temperature_icon
+
+
+div.icon
 {
 	position: absolute;
-	height:64px;
-	width:48px;
-	top:10px;
+	background-repeat:no-repeat;
+	height:56px;
+	width:42px;
+	top:16px;
 	left:5px;
-	background-image:url(icons/temp.png);
 }
 
-div.humidity_icon
+div.humid_icon
 {
-	position: absolute;
-	height:64px;
-	width:48px;
-	top:10px;
-	left:5px;
 	background-image:url(icons/humidity.png);
 }
 
+div.temp_icon
+{
+	background-image:url(icons/temp.png);
+}
+
+div.day_icon
+{
+	background-image:url(icons/light.png);
+}
 
 
 	

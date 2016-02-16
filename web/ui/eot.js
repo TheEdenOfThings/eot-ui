@@ -2,14 +2,14 @@
 
 
 
-function create_reading(parent,reading_class, icon_class,value)
+function create_reading(parent, icon_class,value)
 {
   
   var reading = $("<div/>");
-  reading.attr("class", "reading "+reading_class);
+  reading.attr("class", "reading");
   reading.text(value);
   icon = $("<div/>");
-  icon.attr("class", icon_class); 
+  icon.attr("class", "icon "+icon_class); 
   reading.append (icon); 
   parent.append(reading);
 }
@@ -57,20 +57,9 @@ function start()
     for (var i=0; i<response.length; i++)
     {
       var sensor= response[i];
-
-      switch (sensor.type) 
-      {
-        case "temp":
-          create_reading(location,"reading_temp",
-          "temperature_icon",sensor.current);
-        break;
-      
-        case "humid":
-          create_reading(location,"reading_humidity",
-          "humidity_icon",sensor.current);
-        break;
-      }
-
+	
+      create_reading(location,sensor.type +"_icon",
+			sensor.current);
     }
 
   });
