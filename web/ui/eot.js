@@ -33,7 +33,8 @@ function get_data(callback)
 {
   $.ajax
   ({
-    url: "http://178.62.121.17/api/sensors",
+    //url: "http://178.62.121.17/api/sensors",
+    url: "test/test_data.json",
     dataType: "json",
     error:function(jqXHR, textStatus, errorThrown)
     {
@@ -51,15 +52,21 @@ function start()
 {
   var left = $("#screen1_left");
   var right = $("#screen1_right");
-  var location = create_location(left, "?");
+  //var location = create_location(left, "?");
   get_data(function(response)
   {
     for (var i=0; i<response.length; i++)
     {
-      var sensor= response[i];
+      var locationJsonObj = response[i];
 	
-      create_reading(location,sensor.type +"_icon",
-			sensor.current);
+      var locationDivObj = create_location(left, locationJsonObj.name);
+      
+      for (var j=0; j<locationJsonObj.sensors.length; j++)
+      {
+	var sensor = locationJsonObj.sensors[j];
+	create_reading(locationDivObj, sensor.type +"_icon",sensor.current);
+	
+      }
     }
 
   });
