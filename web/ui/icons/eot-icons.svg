@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="744.09448819"
@@ -14,18 +15,208 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="eot-icons.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3902">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3904" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3906" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3882">
+      <stop
+         style="stop-color:#afdde9;stop-opacity:1;"
+         offset="0"
+         id="stop3884" />
+      <stop
+         style="stop-color:#afdde9;stop-opacity:0;"
+         offset="1"
+         id="stop3886" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3874">
+      <stop
+         style="stop-color:#afdde9;stop-opacity:1;"
+         offset="0"
+         id="stop3876" />
+      <stop
+         style="stop-color:#afdde9;stop-opacity:0;"
+         offset="1"
+         id="stop3878" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3864">
+      <stop
+         style="stop-color:#afdde9;stop-opacity:1;"
+         offset="0"
+         id="stop3866" />
+      <stop
+         style="stop-color:#afdde9;stop-opacity:0;"
+         offset="1"
+         id="stop3868" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3864"
+       id="radialGradient3872"
+       cx="364.40216"
+       cy="264.50546"
+       fx="364.40216"
+       fy="264.50546"
+       r="40.791069"
+       gradientTransform="matrix(1,0,0,1.4306458,0,-113.90817)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3874"
+       id="radialGradient3880"
+       cx="400.4957"
+       cy="166.8522"
+       fx="400.4957"
+       fy="166.8522"
+       r="25.456055"
+       gradientTransform="matrix(1,0,0,1.4306457,0,-71.854192)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3882"
+       id="radialGradient3888"
+       cx="319.32964"
+       cy="183.42134"
+       fx="319.32964"
+       fy="183.42134"
+       r="28.050681"
+       gradientTransform="matrix(1,0,0,1.4306458,0,-78.989628)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3902"
+       id="linearGradient3908"
+       x1="145.71429"
+       y1="344.88966"
+       x2="236.19048"
+       y2="346.86768"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3882"
+       id="radialGradient6180"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4306458,-30,-78.989628)"
+       cx="319.32964"
+       cy="183.42134"
+       fx="319.32964"
+       fy="183.42134"
+       r="28.050681" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3874"
+       id="radialGradient6183"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4306457,-42,-71.854192)"
+       cx="400.4957"
+       cy="166.8522"
+       fx="400.4957"
+       fy="166.8522"
+       r="25.456055" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3864"
+       id="radialGradient6186"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4306458,-36,-113.90817)"
+       cx="364.40216"
+       cy="264.50546"
+       fx="364.40216"
+       fy="264.50546"
+       r="40.791069" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3864"
+       id="radialGradient6196"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4306458,-36,-113.90817)"
+       cx="364.40216"
+       cy="264.50546"
+       fx="364.40216"
+       fy="264.50546"
+       r="40.791069" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3874"
+       id="radialGradient6198"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4306457,-42,-71.854192)"
+       cx="400.4957"
+       cy="166.8522"
+       fx="400.4957"
+       fy="166.8522"
+       r="25.456055" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3882"
+       id="radialGradient6200"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4306458,-30,-78.989628)"
+       cx="319.32964"
+       cy="183.42134"
+       fx="319.32964"
+       fy="183.42134"
+       r="28.050681" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3882"
+       id="radialGradient6206"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143702,-30,-76.796484)"
+       cx="319.32964"
+       cy="183.42134"
+       fx="319.32964"
+       fy="183.42134"
+       r="28.050681" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3874"
+       id="radialGradient6209"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143701,-42,-69.742223)"
+       cx="400.4957"
+       cy="166.8522"
+       fx="400.4957"
+       fy="166.8522"
+       r="25.456055" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3864"
+       id="radialGradient6212"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143702,-36,-111.31778)"
+       cx="364.40216"
+       cy="264.50546"
+       fx="364.40216"
+       fy="264.50546"
+       r="40.791069" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#000000"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="190.71429"
+     inkscape:cx="300.82048"
      inkscape:cy="787.31832"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -51,36 +242,34 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
+    <rect
+       style="fill:#000000;stroke:none"
+       id="rect3078"
+       width="678.57141"
+       height="370"
+       x="17.142857"
+       y="32.362183"
+       ry="3.8809521" />
     <g
-       id="g2997">
+       id="g3910"
+       inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/humidity.png"
+       inkscape:export-xdpi="18.77"
+       inkscape:export-ydpi="18.77">
       <rect
          ry="4.2857141"
          y="96.647896"
-         x="97.14286"
+         x="30.000004"
          height="268.57144"
-         width="134.28572"
+         width="201.42857"
          id="rect2995"
-         style="fill:none;fill-opacity:1;stroke:none" />
-      <rect
-         ry="14.400001"
-         y="126.6479"
-         x="149.28572"
-         height="180.00002"
-         width="34.285713"
-         id="rect2985"
-         style="fill:#ffffff;fill-opacity:1;stroke:none" />
+         style="fill:none;stroke:none" />
       <path
-         transform="matrix(0.72222223,0,0,0.72222223,33.333333,-13.867652)"
-         d="m 222.85715,456.64789 a 38.57143,38.57143 0 1 1 -77.14286,0 38.57143,38.57143 0 1 1 77.14286,0 z"
-         sodipodi:ry="38.57143"
-         sodipodi:rx="38.57143"
-         sodipodi:cy="456.64789"
-         sodipodi:cx="184.28572"
-         id="path2989"
-         style="fill:#ffffff;fill-opacity:1;stroke:none"
-         sodipodi:type="arc" />
+         d="m 222.85715,456.64789 c 0,21.30241 -17.26902,38.57143 -38.57143,38.57143 -21.30241,0 -38.57143,-17.26902 -38.57143,-38.57143 0,-21.30241 17.26902,-38.57143 38.57143,-38.57143 21.30241,0 38.57143,17.26902 38.57143,38.57143 z m -43.1077,-262.0879 9.07252,0 c 10.6368,0 19.2,8.89256 19.2,19.93846 l 0,209.35388 c 0,11.0459 -8.5632,19.93846 -19.2,19.93846 l -9.07252,0 c -10.6368,0 -19.2,-8.89256 -19.2,-19.93846 l 0,-209.35388 c 0,-11.0459 8.5632,-19.93846 19.2,-19.93846 z"
+         style="fill:url(#linearGradient3908);fill-opacity:1;stroke:none"
+         transform="matrix(0.74999998,0,0,0.72222223,-7.4999963,-13.867652)"
+         id="path2989" />
       <path
-         transform="translate(-130.71428,-18.571429)"
+         transform="matrix(1.0384615,0,0,1,-177.85712,-18.571429)"
          d="m 311.42857,333.79074 a 14.285714,14.285714 0 1 1 -28.57143,0 14.285714,14.285714 0 1 1 28.57143,0 z"
          sodipodi:ry="14.285714"
          sodipodi:rx="14.285714"
@@ -92,40 +281,253 @@
       <rect
          ry="4.2857141"
          y="146.6479"
-         x="162.14287"
+         x="126.26374"
          height="165.71428"
-         width="8.5714283"
+         width="8.9010983"
          id="rect2993"
          style="fill:#ff0000;fill-opacity:1;stroke:none" />
     </g>
     <g
-       id="g3021">
+       id="g6214"
+       inkscape:export-xdpi="21.450001"
+       inkscape:export-ydpi="21.450001"
+       inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/humidity.png">
       <path
+         inkscape:export-ydpi="21.446806"
+         inkscape:export-xdpi="21.446806"
+         inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/rect3019.png"
          sodipodi:nodetypes="zcz"
          inkscape:connector-curvature="0"
          id="path3013"
-         d="m 365.3011,322.58969 c 67.38898,0.20477 35.7805,-68.08814 0.77966,-116.16892 -42.55339,49.5032 -68.16864,115.96414 -0.77966,116.16892 z"
-         style="fill:#ffffff;stroke:#000000;stroke-width:0.54575998px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         d="m 329.3011,320.21431 c 67.38898,0.20244 35.7805,-67.31354 0.77966,-114.84733 -42.55339,48.94003 -68.16864,114.64488 -0.77966,114.84733 z"
+         style="fill:url(#radialGradient6212);fill-opacity:1;stroke:#000000;stroke-width:0.54264671px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <path
-         style="fill:#ffffff;stroke:#000000;stroke-width:0.34058675px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 401.0567,203.10022 c 42.05474,0.12779 22.32917,-42.49105 0.48656,-72.49632 -26.55585,30.89295 -42.54129,72.36853 -0.48656,72.49632 z"
+         inkscape:export-ydpi="21.446806"
+         inkscape:export-xdpi="21.446806"
+         inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/rect3019.png"
+         style="fill:url(#radialGradient6209);fill-opacity:1;stroke:#000000;stroke-width:0.33864388px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 359.0567,202.0842 c 42.05474,0.12634 22.32917,-42.00765 0.48656,-71.67157 -26.55585,30.5415 -42.54129,71.54523 -0.48656,71.67157 z"
          id="path3015"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="zcz" />
       <path
+         inkscape:export-ydpi="21.446806"
+         inkscape:export-xdpi="21.446806"
+         inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/rect3019.png"
          sodipodi:nodetypes="zcz"
          inkscape:connector-curvature="0"
          id="path3017"
-         d="m 319.94783,223.36396 c 46.34119,0.14082 24.60507,-46.82198 0.53614,-79.88556 -29.26257,34.04173 -46.87734,79.74474 -0.53614,79.88556 z"
-         style="fill:#ffffff;stroke:#000000;stroke-width:0.3753013px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         d="m 289.94783,222.11741 c 46.34119,0.13922 24.60507,-46.28931 0.53614,-78.97675 -29.26257,33.65446 -46.87734,78.83754 -0.53614,78.97675 z"
+         style="fill:url(#radialGradient6206);fill-opacity:1;stroke:#000000;stroke-width:0.37316042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
       <rect
-         ry="3.8809521"
+         inkscape:export-ydpi="21.446806"
+         inkscape:export-xdpi="21.446806"
+         ry="3.8368008"
          y="113.79076"
-         x="264.28571"
-         height="232.85713"
-         width="191.42857"
+         x="235.42856"
+         height="230.20805"
+         width="172.85715"
          id="rect3019"
          style="fill:none;stroke:none" />
+      <text
+         transform="scale(1.0057372,0.99429554)"
+         sodipodi:linespacing="125%"
+         id="text3890"
+         y="284.7951"
+         x="306.13281"
+         style="font-size:45.98478317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Humanst521 BT;-inkscape-font-specification:Humanst521 BT"
+         xml:space="preserve"><tspan
+           y="284.7951"
+           x="306.13281"
+           id="tspan3892"
+           sodipodi:role="line">%</tspan></text>
+    </g>
+    <g
+       id="g6159"
+       inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/light.png"
+       inkscape:export-xdpi="21.450001"
+       inkscape:export-ydpi="21.450001">
+      <rect
+         inkscape:export-ydpi="32.400002"
+         inkscape:export-xdpi="32.400002"
+         inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+         y="112.97131"
+         x="470.46222"
+         height="237.00224"
+         width="177.00224"
+         id="rect4633"
+         style="fill:none;stroke:none" />
+      <g
+         transform="translate(-3.7951736,0)"
+         id="g6144">
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffd700;stroke:none"
+           id="path4454"
+           sodipodi:cx="1109.2858"
+           sodipodi:cy="391.64789"
+           sodipodi:rx="59.285713"
+           sodipodi:ry="59.285713"
+           d="m 1168.5715,391.64789 c 0,32.74259 -26.5431,59.28571 -59.2857,59.28571 -32.7426,0 -59.2857,-26.54312 -59.2857,-59.28571 0,-32.7426 26.5431,-59.28572 59.2857,-59.28572 32.7426,0 59.2857,26.54312 59.2857,59.28572 z"
+           transform="matrix(0.66653485,0,0,0.66653485,-176.32208,-30.970806)"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           style="fill:#ffd700;stroke:none"
+           id="rect4456"
+           width="26.819811"
+           height="10.57973"
+           x="608.09424"
+           y="224.78632"
+           inkscape:transform-center-x="-88.13581"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-x="-76.327845"
+           y="475.34122"
+           x="417.6608"
+           height="10.57973"
+           width="26.819811"
+           id="rect4506"
+           style="fill:#ffd700;stroke:none"
+           transform="matrix(0.8660254,-0.50000001,0.50000001,0.8660254,0,0)"
+           inkscape:transform-center-y="-44.06789"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-y="-76.327819"
+           transform="matrix(0.50000001,-0.8660254,0.8660254,0.50000001,0,0)"
+           style="fill:#ffd700;stroke:none"
+           id="rect4508"
+           width="26.819811"
+           height="10.57973"
+           x="127.46315"
+           y="597.11145"
+           inkscape:transform-center-x="-44.067914"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-x="2.818905e-05"
+           y="557.46869"
+           x="-184.74048"
+           height="10.57973"
+           width="26.819811"
+           id="rect4510"
+           style="fill:#ffd700;stroke:none"
+           transform="matrix(0,-1,1,0,0,0)"
+           inkscape:transform-center-y="-88.135798"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-y="-76.327837"
+           transform="matrix(-0.50000001,-0.8660254,0.8660254,-0.50000001,0,0)"
+           style="fill:#ffd700;stroke:none"
+           id="rect4512"
+           width="26.819811"
+           height="10.57973"
+           x="-435.29538"
+           y="367.03522"
+           inkscape:transform-center-x="44.067944"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-x="76.327925"
+           y="76.837578"
+           x="-557.06561"
+           height="10.57973"
+           width="26.819811"
+           id="rect4514"
+           style="fill:#ffd700;stroke:none"
+           transform="matrix(-0.8660254,-0.50000001,0.50000001,-0.8660254,0,0)"
+           inkscape:transform-center-y="-44.067889"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-y="4.0418145e-05"
+           transform="scale(-1,-1)"
+           style="fill:#ffd700;stroke:none"
+           id="rect4516"
+           width="26.819811"
+           height="10.57973"
+           x="-517.42279"
+           y="-235.36604"
+           inkscape:transform-center-x="88.135919"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-x="76.327945"
+           y="-485.92099"
+           x="-326.98935"
+           height="10.57973"
+           width="26.819811"
+           id="rect4518"
+           style="fill:#ffd700;stroke:none"
+           transform="matrix(-0.8660254,0.50000001,-0.50000001,-0.8660254,0,0)"
+           inkscape:transform-center-y="44.067983"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-y="76.32795"
+           transform="matrix(-0.50000001,0.8660254,-0.8660254,-0.50000001,0,0)"
+           style="fill:#ffd700;stroke:none"
+           id="rect4520"
+           width="26.819811"
+           height="10.57973"
+           x="-36.79171"
+           y="-607.69116"
+           inkscape:transform-center-x="44.067996"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-x="8.0958484e-05"
+           y="-568.04834"
+           x="275.41193"
+           height="10.57973"
+           width="26.819811"
+           id="rect4522"
+           style="fill:#ffd700;stroke:none"
+           transform="matrix(0,1,-1,0,0,0)"
+           inkscape:transform-center-y="88.135931"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-y="76.327984"
+           transform="matrix(0.50000001,0.8660254,-0.8660254,0.50000001,0,0)"
+           style="fill:#ffd700;stroke:none"
+           id="rect4524"
+           width="26.819811"
+           height="10.57973"
+           x="525.96686"
+           y="-377.61493"
+           inkscape:transform-center-x="-44.067875"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+        <rect
+           inkscape:transform-center-x="-76.327843"
+           y="-87.417274"
+           x="647.737"
+           height="10.57973"
+           width="26.819811"
+           id="rect4526"
+           style="fill:#ffd700;stroke:none"
+           transform="matrix(0.8660254,0.50000001,-0.50000001,0.8660254,0,0)"
+           inkscape:transform-center-y="44.068021"
+           inkscape:export-filename="/home/prc/world.gui/guide/skins/default/weather/sunny.png"
+           inkscape:export-xdpi="32.400002"
+           inkscape:export-ydpi="32.400002" />
+      </g>
     </g>
   </g>
 </svg>
