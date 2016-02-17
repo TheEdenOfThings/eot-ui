@@ -1,5 +1,5 @@
 <XAIT>
-<versionNumber>200</versionNumber>
+<versionNumber>301</versionNumber>
 	<AbstractService>
 	<svcName>Pro:Centric Application</svcName>
 	<svcId>0x1204</svcId>
@@ -19,7 +19,7 @@
 					<version>0</version>
 				</applicationDescriptor>
 				<HcapDescriptor>
-					<url>http://192.168.0.104/eot/</url>
+					<url>http://10.255.252.60/eot-ui/web/ui/</url>
 				</HcapDescriptor>
 			</Application>
 		</ApplicationList>

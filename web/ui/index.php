@@ -8,6 +8,8 @@
 
 <!DOCTYPE html>
 <html>
+
+
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=11"/>
     <meta name="page-view-size" content="1280*720" />
@@ -23,6 +25,30 @@
   </head>
   
   <body>
-    <h1>Eden of Things: Skeleton page</h1>
-  </body>
+
+
+
+	<div id="screen1" class="screen"> 
+		<div id="screen1_left" class="half_screen">
+			
+
+		</div>
+		<div id="screen1_right" class="half_screen">
+
+		</div>
+	</div>
+
+	<div id="screen2" class="screen">
+	
+
+	</div>
+	
+	<div id="screen3" class="screen">
+	
+
+</div>
+
+
+ 
+</body>
 </html>
