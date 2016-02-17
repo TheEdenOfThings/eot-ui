@@ -207,6 +207,83 @@
        fx="364.40216"
        fy="264.50546"
        r="40.791069" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3864"
+       id="radialGradient6222"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143702,-36,-111.31778)"
+       cx="364.40216"
+       cy="264.50546"
+       fx="364.40216"
+       fy="264.50546"
+       r="40.791069" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3874"
+       id="radialGradient6224"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143701,-42,-69.742223)"
+       cx="400.4957"
+       cy="166.8522"
+       fx="400.4957"
+       fy="166.8522"
+       r="25.456055" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3882"
+       id="radialGradient6226"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143702,-30,-76.796484)"
+       cx="319.32964"
+       cy="183.42134"
+       fx="319.32964"
+       fy="183.42134"
+       r="28.050681" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3882"
+       id="radialGradient6232"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143702,-30,-76.796484)"
+       cx="319.32964"
+       cy="183.42134"
+       fx="319.32964"
+       fy="183.42134"
+       r="28.050681" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3874"
+       id="radialGradient6235"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.4143701,-42,-69.742223)"
+       cx="400.4957"
+       cy="166.8522"
+       fx="400.4957"
+       fy="166.8522"
+       r="25.456055" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3864"
+       id="radialGradient6238"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5428566,0,0,2.1821704,-243.10385,-344.2968)"
+       cx="364.40216"
+       cy="264.50546"
+       fx="364.40216"
+       fy="264.50546"
+       r="40.791069" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3864"
+       id="radialGradient6245"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.5428566,0,0,2.1821704,-243.10385,-344.2968)"
+       cx="364.40216"
+       cy="264.50546"
+       fx="364.40216"
+       fy="264.50546"
+       r="40.791069" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -217,7 +294,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="300.82048"
-     inkscape:cy="787.31832"
+     inkscape:cy="630.53455"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -252,7 +329,7 @@
        ry="3.8809521" />
     <g
        id="g3910"
-       inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/humidity.png"
+       inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/temp.png"
        inkscape:export-xdpi="18.77"
        inkscape:export-ydpi="18.77">
       <rect
@@ -288,37 +365,10 @@
          style="fill:#ff0000;fill-opacity:1;stroke:none" />
     </g>
     <g
-       id="g6214"
-       inkscape:export-xdpi="21.450001"
-       inkscape:export-ydpi="21.450001"
-       inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/humidity.png">
-      <path
-         inkscape:export-ydpi="21.446806"
-         inkscape:export-xdpi="21.446806"
-         inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/rect3019.png"
-         sodipodi:nodetypes="zcz"
-         inkscape:connector-curvature="0"
-         id="path3013"
-         d="m 329.3011,320.21431 c 67.38898,0.20244 35.7805,-67.31354 0.77966,-114.84733 -42.55339,48.94003 -68.16864,114.64488 -0.77966,114.84733 z"
-         style="fill:url(#radialGradient6212);fill-opacity:1;stroke:#000000;stroke-width:0.54264671px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-      <path
-         inkscape:export-ydpi="21.446806"
-         inkscape:export-xdpi="21.446806"
-         inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/rect3019.png"
-         style="fill:url(#radialGradient6209);fill-opacity:1;stroke:#000000;stroke-width:0.33864388px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 359.0567,202.0842 c 42.05474,0.12634 22.32917,-42.00765 0.48656,-71.67157 -26.55585,30.5415 -42.54129,71.54523 -0.48656,71.67157 z"
-         id="path3015"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="zcz" />
-      <path
-         inkscape:export-ydpi="21.446806"
-         inkscape:export-xdpi="21.446806"
-         inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/rect3019.png"
-         sodipodi:nodetypes="zcz"
-         inkscape:connector-curvature="0"
-         id="path3017"
-         d="m 289.94783,222.11741 c 46.34119,0.13922 24.60507,-46.28931 0.53614,-78.97675 -29.26257,33.65446 -46.87734,78.83754 -0.53614,78.97675 z"
-         style="fill:url(#radialGradient6206);fill-opacity:1;stroke:#000000;stroke-width:0.37316042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       id="g6247"
+       inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/humidity.png"
+       inkscape:export-xdpi="21.870001"
+       inkscape:export-ydpi="21.870001">
       <rect
          inkscape:export-ydpi="21.446806"
          inkscape:export-xdpi="21.446806"
@@ -329,18 +379,31 @@
          width="172.85715"
          id="rect3019"
          style="fill:none;stroke:none" />
-      <text
-         transform="scale(1.0057372,0.99429554)"
-         sodipodi:linespacing="125%"
-         id="text3890"
-         y="284.7951"
-         x="306.13281"
-         style="font-size:45.98478317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Humanst521 BT;-inkscape-font-specification:Humanst521 BT"
-         xml:space="preserve"><tspan
-           y="284.7951"
-           x="306.13281"
-           id="tspan3892"
-           sodipodi:role="line">%</tspan></text>
+      <g
+         transform="translate(2.7407017,0)"
+         id="g6240">
+        <path
+           style="fill:url(#radialGradient6245);fill-opacity:1;stroke:#000000;stroke-width:0.83722609px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 320.50339,321.49534 c 103.97153,0.31234 55.20418,-103.85514 1.2029,-177.19296 -65.65378,75.50745 -105.17444,176.88061 -1.2029,177.19296 z"
+           id="path3013"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zcz"
+           inkscape:export-filename="/home/prc/eot-ui/web/ui/icons/rect3019.png"
+           inkscape:export-xdpi="21.446806"
+           inkscape:export-ydpi="21.446806" />
+        <text
+           xml:space="preserve"
+           style="font-size:86.68940735px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Humanst521 BT;-inkscape-font-specification:Humanst521 BT"
+           x="276.86737"
+           y="276.7962"
+           id="text3890"
+           sodipodi:linespacing="125%"
+           transform="scale(1.0057372,0.99429553)"><tspan
+             sodipodi:role="line"
+             id="tspan3892"
+             x="276.86737"
+             y="276.7962">%</tspan></text>
+      </g>
     </g>
     <g
        id="g6159"
