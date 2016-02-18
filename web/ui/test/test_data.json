@@ -3,17 +3,17 @@
 {"location":1,"lat":21,"long":52,"name":"Waterfall", 
 	"sensors":
 	[
-		{"id":1,"type":"temp","current":15,"last":10, "unit":"C"},
-		{"id":2,"type":"humid","current":83,"last":64, "unit":"%"},
-		{"id":3,"type":"day","current":450,"last":120, "unit":"LUX"}
+		{"id":1,"type":"temp","current":25,"last":10, "unit":"C"},
+		{"id":2,"type":"day","current":87,"last":64, "unit":"%"},
+		{"id":3,"type":"humid","current":223,"last":120, "unit":"LUX"}
 	]
 },
 
 {"location":2,"lat":25,"long":50,"name":"Balcony", 
 	"sensors":
 	[
-		{"id":1,"type":"temp","current":22,"last":20, "unit":"C"},
-		{"id":2,"type":"humid","current":85,"last":72, "unit":"%"},
+		{"id":1,"type":"humid","current":43,"last":20, "unit":"C"},
+		{"id":2,"type":"temp","current":85,"last":72, "unit":"%"},
 		{"id":3,"type":"day","current":200,"last":123, "unit":"LUX"}
 		
 	]
@@ -22,7 +22,7 @@
 {"location":3,"lat":26,"long":51,"name":"Entrance", 
 	"sensors":
 	[	
-		{"id":1,"type":"temp","current":17,"last":12, "unit":"C"},
+		{"id":1,"type":"temp","current":68,"last":12, "unit":"C"},
 		{"id":2,"type":"humid","current":67.5,"last":70, "unit":"%"},
 		{"id":3,"type":"day", "current" :180,"last":100, "unit":"LUX"}
 		
@@ -32,9 +32,9 @@
 {"location":4,"lat":22,"long":54,"name":"Platform", 
 	"sensors":
 	[
-		{"id":1, "type":"temp","current":20,"last":18, "unit":"C"},
+		{"id":1, "type":"day","current":20,"last":18, "unit":"C"},
 		{"id":2,"type":"humid","current":70.5,"last":67, "unit":"%"},
-		{"id":3,"type":"day","current":170,"last":120, "unit":"LUX"}
+		{"id":3,"type":"temp","current":170,"last":120, "unit":"LUX"}
 		
 	]
 }
@@ -42,7 +42,7 @@
 {"location":5,"lat":10,"long":32,"name":"Theatre", 
 	"sensors":
 	[	
-		{"id":1,"type":"temp","current":17,"last":12, "unit":"C"},
+		{"id":1,"type":"temp","current":14,"last":12, "unit":"C"},
 		{"id":2,"type":"humid","current":67.5,"last":70, "unit":"%"},
 		{"id":3,"type":"day", "current" :180,"last":100, "unit":"LUX"}
 		
@@ -52,9 +52,9 @@
 {"location":6,"lat":12,"long":35,"name":"Cafe", 
 	"sensors":
 	[	
-		{"id":1,"type":"temp","current":17,"last":12, "unit":"C"},
-		{"id":2,"type":"humid","current":67.5,"last":70, "unit":"%"},
-		{"id":3,"type":"day", "current" :180,"last":100, "unit":"LUX"}
+		{"id":1,"type":"temp","current":23,"last":12, "unit":"C"},
+		{"id":2,"type":"humid","current":52,"last":70, "unit":"%"},
+		{"id":3,"type":"day", "current" :246,"last":100, "unit":"LUX"}
 		
 	]
 }

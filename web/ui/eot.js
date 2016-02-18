@@ -2,22 +2,34 @@
 
 
 
-function create_reading(parent, icon_class,value)
+function create_reading(parent, icon_class,value,id)
 {
-  
   var reading = $("<div/>");
   reading.attr("class", "reading");
-  reading.text(value);
+  reading_value = $("<span/>");
+  reading_value.text(value);
+  reading_value.attr("class", "reading_value");
+  reading.append(reading_value);
   icon = $("<div/>");
   icon.attr("class", "icon "+icon_class); 
   reading.append (icon); 
+  reading.attr("sensor_id", id);
   parent.append(reading);
 }
 
-function create_location(side, title)
+function update_reading(reading, icon_class, value)
+{
+  var reading_title = reading.find(".reading_value")
+  reading_title.text(value);
+}
+
+function create_location(side, title, id)
 {
   var location = $("<div/>");
   location.attr("class", "location");
+  location.attr("location_id", id);
+
+  
   side.append(location);
 
   var location_title = $("<div/>");
@@ -28,6 +40,12 @@ function create_location(side, title)
  
 }
 
+function update_location(location,name)
+{
+  var location_title = location.find (".location_title")
+  location_title.text(name);
+
+}
 
 function get_data(callback)
 {
@@ -63,15 +81,32 @@ function start()
       if (locationJsonObj.long >=50)
       {
         side = left;
-      }
-      var locationDivObj = create_location(side, locationJsonObj.name);
-      for (var j=0; j<locationJsonObj.sensors.length; j++)
+      }      
+
+      var locationDivObj = $("[location_id=" + locationJsonObj.location + "]");     
+
+      if (locationDivObj.length == 0)
       {
-	var sensor = locationJsonObj.sensors[j];
-	create_reading(locationDivObj, sensor.type +"_icon",sensor.current);
-	
+        locationDivObj = create_location(side, locationJsonObj.name, locationJsonObj.location);
+      }
+      else 
+      {
+	 update_location(locationDivObj,locationJsonObj.name) 
       }
 
+      for (var j=0; j<locationJsonObj.sensors.length; j++)
+      {
+	  var sensor = locationJsonObj.sensors[j];
+	  var sensorDivObj = locationDivObj.find("[sensor_id=" + sensor.id + "]"); 
+	  if (sensorDivObj.length == 0)
+	  {
+	    create_reading(locationDivObj, sensor.type +"_icon",sensor.current, sensor.id);
+	  }
+	  else
+	  {
+	    update_reading(sensorDivObj,  sensor.type +"_icon",sensor.current);
+	  }	
+      }
     }
 
   });
@@ -81,7 +116,7 @@ function start()
 // Startup function
 $(function()
   {
-    setTimeout(function(){location.reload();},30000);
+    setInterval(function(){start();},20000);
     start();
   
   });
