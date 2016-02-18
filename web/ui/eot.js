@@ -52,21 +52,26 @@ function start()
 {
   var left = $("#screen1_left");
   var right = $("#screen1_right");
-  //var location = create_location(left, "?");
   get_data(function(response)
   {
     for (var i=0; i<response.length; i++)
     {
       var locationJsonObj = response[i];
-	
-      var locationDivObj = create_location(left, locationJsonObj.name);
+      var side = right;
       
+//TODO:fix the long magic number
+      if (locationJsonObj.long >=50)
+      {
+        side = left;
+      }
+      var locationDivObj = create_location(side, locationJsonObj.name);
       for (var j=0; j<locationJsonObj.sensors.length; j++)
       {
 	var sensor = locationJsonObj.sensors[j];
 	create_reading(locationDivObj, sensor.type +"_icon",sensor.current);
 	
       }
+
     }
 
   });
@@ -76,8 +81,8 @@ function start()
 // Startup function
 $(function()
   {
-  setTimeout(function(){location.reload();},30000);
-  start();
+    setTimeout(function(){location.reload();},30000);
+    start();
   
   });
 
