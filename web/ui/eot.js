@@ -1,6 +1,13 @@
 // Eden of Things Javascript
 
+function slide_show()
+{
+  
 
+
+
+
+}
 
 function create_reading(parent, icon_class,value,id)
 {
@@ -51,8 +58,8 @@ function get_data(callback)
 {
   $.ajax
   ({
-    //url: "http://178.62.121.17/api/sensors",
-    url: "test/test_data.json",
+    url: "http://178.62.121.17/api/sensors",
+//    url: "test/test_data.json",
     dataType: "json",
     error:function(jqXHR, textStatus, errorThrown)
     {
@@ -75,37 +82,40 @@ function start()
     for (var i=0; i<response.length; i++)
     {
       var locationJsonObj = response[i];
-      var side = right;
+      var side;
+      var zone = locationJsonObj.zone.toLowerCase();
       
-//TODO:fix the long magic number
-      if (locationJsonObj.long >=50)
-      {
+      if (zone === "tropical") {
         side = left;
-      }      
-
-      var locationDivObj = $("[location_id=" + locationJsonObj.location + "]");     
+      } else if (zone === "mediterranean") {
+        side = right;
+      } else {
+        continue;
+      }
+  
+      var locationDivObj = $("[location_id=" + locationJsonObj.id + "]");     
 
       if (locationDivObj.length == 0)
       {
-        locationDivObj = create_location(side, locationJsonObj.name, locationJsonObj.location);
+        locationDivObj = create_location(side, locationJsonObj.name, locationJsonObj.id);
       }
       else 
       {
-	 update_location(locationDivObj,locationJsonObj.name) 
+        update_location(locationDivObj,locationJsonObj.name) 
       }
 
       for (var j=0; j<locationJsonObj.sensors.length; j++)
       {
-	  var sensor = locationJsonObj.sensors[j];
-	  var sensorDivObj = locationDivObj.find("[sensor_id=" + sensor.id + "]"); 
-	  if (sensorDivObj.length == 0)
-	  {
-	    create_reading(locationDivObj, sensor.type +"_icon",sensor.current, sensor.id);
-	  }
-	  else
-	  {
-	    update_reading(sensorDivObj,  sensor.type +"_icon",sensor.current);
-	  }	
+		  var sensor = locationJsonObj.sensors[j];
+		  var sensorDivObj = locationDivObj.find("[sensor_id=" + sensor.id + "]"); 
+		  if (sensorDivObj.length == 0)
+		  {
+		    create_reading(locationDivObj, sensor.type.toLowerCase() +"_icon", sensor.current + sensor.unit, sensor.id);
+		  }
+		  else
+		  {
+		    update_reading(sensorDivObj,  sensor.type.toLowerCase() +"_icon",sensor.current + sensor.unit);
+		  }	
       }
     }
 
@@ -118,7 +128,28 @@ $(function()
   {
     setInterval(function(){start();},20000);
     start();
-  
+
+    // hide all the screens
+    $('.screen').hide();
+
+    // show the first screen
+    $('.screen').first().show();
+
+    // every 3 seconds, move the visible screen to the next one
+    setInterval(function() {
+      var current = $('.screen:visible');
+      current.hide();
+
+      var next = current.next();
+      if (next.length == 0)
+      {
+       	next = $('.screen').first();
+      } 
+
+      next.show();      
+
+      // TODO: add a transition to the screens switching.
+    }, 30000);
   });
 
 

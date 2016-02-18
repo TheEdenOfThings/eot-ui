@@ -39,7 +39,13 @@
 	</div>
 
 	<div id="screen2" class="screen">
-	
+		<div id="screen2_left" class="half_screen">
+			
+
+		</div>
+		<div id="screen2_right" class="half_screen">
+
+		</div>
 
 	</div>
 	

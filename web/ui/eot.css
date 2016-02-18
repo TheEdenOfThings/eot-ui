@@ -48,6 +48,20 @@ div#screen1_right
 	right:0;
 	
 }
+div#screen2_left
+{
+	background: url(images/rainwithcolor.png) no-repeat;
+	left:0;
+	border-right: 4px solid black;
+	
+}
+
+div#screen2_right
+{
+	background: url(images/medwithcolor.png) no-repeat;
+	right:0;
+	
+}
 
 div.location
 {	
@@ -103,17 +117,17 @@ div.icon
 	left:5px;
 }
 
-div.humid_icon
+div.humidity_icon
 {
 	background-image:url(icons/humidity.png);
 }
 
-div.temp_icon
+div.temperature_icon
 {
 	background-image:url(icons/temp.png);
 }
 
-div.day_icon
+div.light_icon
 {
 	background-image:url(icons/light.png);
 }
