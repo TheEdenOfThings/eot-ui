@@ -39,19 +39,31 @@
 	</div>
 
 	<div id="screen2" class="screen">
+
 		<div id="screen2_left" class="half_screen">
-			
+		
+
+		<div class="marker first_marker"></div>
+		<div class="marker second_marker"></div>
+		<div class="marker third_marker"></div>	
 
 		</div>
 		<div id="screen2_right" class="half_screen">
 
+		<div class="marker fourth_marker"></div>
+		<div class="marker fifth_marker"></div>
 		</div>
 
+
+		<div class="map-legend">
+                  <p>This map is showing the position of some of our sensors installed in the biomes.</p>
+                </div>
+
 	</div>
-	
+<!--	
 	<div id="screen3" class="screen">
 	
-
+-->
 </div>
 
 

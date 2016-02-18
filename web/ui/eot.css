@@ -53,14 +53,27 @@ div#screen2_left
 	background: url(images/rainwithcolor.png) no-repeat;
 	left:0;
 	border-right: 4px solid black;
-	
+	background-size :cover;
 }
 
 div#screen2_right
 {
 	background: url(images/medwithcolor.png) no-repeat;
 	right:0;
-	
+	background-size :cover;
+}
+
+div#screen3_left
+{
+	background-image: url(images/eden-tropical.jpg);
+	left:0;
+	border-right: 4px solid black;
+}
+
+div#screen3_right
+{
+	background-image: url(images/eden-med.jpg);
+	right:0;
 }
 
 div.location
@@ -132,10 +145,63 @@ div.light_icon
 	background-image:url(icons/light.png);
 }
 
+div.marker
+{
+	width:40px;
+	height:40px;
+	position: absolute;
+	background-image:url(images/pin.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+}
 
-	
+div.first_marker
+{
+	left:301px;
+	top:292px;	
+}
+
+div.second_marker
+{
+	left:154px;
+	top:256px;
+}	
+
+div.third_marker
+{
+	left:545px;
+	top:518px;
+}
+
+div.fourth_marker
+{
+	left:301px;
+	top:292px;	
+}
+
+div.fifth_marker
+{
+	left:154px;
+	top:256px;
+}	
 
 
+.map-legend {
+ position: absolute;
+ text-align: center;
+ height: auto;
+ 
+ font-size: 2em;
+
+ padding: .5em;
+ top: .5em;
+
+ left: 0;
+ right: 0;
+
+ background-color: rgba(0,0,0,0.5);
+ color: white;
+}
 
 
 

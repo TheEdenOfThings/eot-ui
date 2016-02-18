@@ -1,14 +1,5 @@
 // Eden of Things Javascript
 
-function slide_show()
-{
-  
-
-
-
-
-}
-
 function create_reading(parent, icon_class,value,id)
 {
   var reading = $("<div/>");
