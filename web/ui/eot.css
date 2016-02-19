@@ -155,35 +155,6 @@ div.marker
 	background-repeat: no-repeat;
 }
 
-div.first_marker
-{
-	left:301px;
-	top:292px;	
-}
-
-div.second_marker
-{
-	left:154px;
-	top:256px;
-}	
-
-div.third_marker
-{
-	left:545px;
-	top:518px;
-}
-
-div.fourth_marker
-{
-	left:301px;
-	top:292px;	
-}
-
-div.fifth_marker
-{
-	left:154px;
-	top:256px;
-}	
 
 
 .map-legend {

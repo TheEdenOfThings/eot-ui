@@ -1,5 +1,29 @@
 // Eden of Things Javascript
 
+function create_marker(parent,name,lat,long)
+{
+  var origin_lat = 50.361376;
+  var origin_long = -4.746325;
+  var max_lat = 50.363313;
+  var max_long = -4.743967;
+  var lat_range = max_lat-origin_lat;
+  var long_range = max_long-origin_long;
+  var frac_lat= (lat-origin_lat)/lat_range;
+  var frac_long= (long-origin_long)/long_range;
+  var top= 720-frac_lat*720;
+  var left= frac_long*640;
+
+  var marker = $("<div/>");
+  marker.attr("class", "marker");
+  marker.offset({top:top,left:left});
+  marker_name = $("<span/>");
+  marker_name.text(name);
+  marker_name.attr("class", "marker_name");
+  marker.append(marker_name);
+  parent.append(marker);
+
+}
+
 function create_reading(parent, icon_class,value,id)
 {
   var reading = $("<div/>");
@@ -45,12 +69,11 @@ function update_location(location,name)
 
 }
 
-function get_data(callback)
+function get_data(url,callback)
 {
   $.ajax
   ({
-    url: "http://178.62.121.17/api/sensors",
-//    url: "test/test_data.json",
+    url:url,
     dataType: "json",
     error:function(jqXHR, textStatus, errorThrown)
     {
@@ -64,11 +87,12 @@ function get_data(callback)
 }
 
 
-function start()
+function update_screen1()
 {
   var left = $("#screen1_left");
   var right = $("#screen1_right");
-  get_data(function(response)
+  get_data("http://178.62.121.17/api/sensors",
+  function(response)
   {
     for (var i=0; i<response.length; i++)
     {
@@ -114,11 +138,39 @@ function start()
 }
 
 
+function update_screen2()
+{
+  var left = $("#screen2_left");
+  var right = $("#screen2_right");
+  get_data("test/test_data.json",
+  function(response)
+  {
+    for (var i=0; i<response.length; i++)
+    {
+      var locationJsonObj = response[i];
+      var side;
+      var zone = locationJsonObj.zone.toLowerCase();
+      
+      if (zone === "tropical") {
+        side = left;
+      } else if (zone === "mediterranean") {
+        side = right;
+      } else {
+        continue;
+      }
+
+      create_marker(side,locationJsonObj.name, locationJsonObj.lat,locationJsonObj.long);
+    }
+  });
+}
+  
+
 // Startup function
 $(function()
   {
-    setInterval(function(){start();},20000);
-    start();
+    setInterval(function(){update_screen1();},20000);
+    update_screen1();
+    update_screen2();
 
     // hide all the screens
     $('.screen').hide();
@@ -129,6 +181,7 @@ $(function()
     // every 3 seconds, move the visible screen to the next one
     setInterval(function() {
       var current = $('.screen:visible');
+
       current.hide();
 
       var next = current.next();

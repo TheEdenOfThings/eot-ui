@@ -43,15 +43,10 @@
 		<div id="screen2_left" class="half_screen">
 		
 
-		<div class="marker first_marker"></div>
-		<div class="marker second_marker"></div>
-		<div class="marker third_marker"></div>	
-
+		
 		</div>
 		<div id="screen2_right" class="half_screen">
 
-		<div class="marker fourth_marker"></div>
-		<div class="marker fifth_marker"></div>
 		</div>
 
 
@@ -62,10 +57,12 @@
 	</div>
 <!--	
 	<div id="screen3" class="screen">
-	
+		<div id="screen3_left" class="half_screen">
+		</div>
+		<div id="screen3_right" class="half_screen">
+		</div>	
+	</div>
 -->
-</div>
-
 
  
 </body>

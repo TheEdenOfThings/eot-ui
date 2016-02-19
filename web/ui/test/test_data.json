@@ -1,6 +1,6 @@
 [
 
-{"id":1,"zone": "Tropical", "lat":21,"long":52,"name":"Waterfall", 
+{"id":1,"zone": "Tropical", "lat":50.36228387,"long":-4.7458067,"name":"Waterfall", 
 	"sensors":
 	[
 		{"id":1,"type":"Temperature","current":25,"last":10, "unit":"C"},
@@ -9,7 +9,7 @@
 	]
 },
 
-{"id":2,"zone": "Tropical", "lat":25,"long":50,"name":"Balcony", 
+{"id":2,"zone": "Tropical", "lat":50.36287700,"long":-4.7456200,"name":"Staff Bridge", 
 	"sensors":
 	[
 		{"id":1,"type":"Temperature","current":43,"last":20, "unit":"C"},
@@ -19,7 +19,7 @@
 	]
 },
 
-{"id":3,"zone": "Tropical", "lat":26,"long":51,"name":"Entrance", 
+{"id":3,"zone": "Tropical", "lat":50.362751,"long":-4.745331,"name":"CentrePlat", 
 	"sensors":
 	[	
 		{"id":1,"type":"Temperature","current":68,"last":12, "unit":"C"},
@@ -29,7 +29,7 @@
 	]
 }
 ,
-{"id":4,"zone": "Tropical", "lat":22,"long":54,"name":"Platform", 
+{"id":4,"zone": "Tropical", "lat":50.3625100,"long":-4.7460799,"name":"Under Bridge", 
 	"sensors":
 	[
 		{"id":1, "type":"Temperature","current":20,"last":18, "unit":"C"},
@@ -39,7 +39,7 @@
 	]
 }
 ,
-{"id":5,"zone": "Mediterranean", "lat":10,"long":32,"name":"Theatre", 
+{"id":5,"zone": "Mediterranean", "lat":50.3626595,"long":-4.7455282,"name":"Entrance", 
 	"sensors":
 	[	
 		{"id":1,"type":"Temperature","current":14,"last":12, "unit":"C"},
@@ -49,7 +49,7 @@
 	]
 
 },
-{"id":6,"zone": "Mediterranean", "lat":12,"long":35,"name":"Cafe", 
+{"id":6,"zone": "Mediterranean", "lat":50.3612442,"long":-4.7432833,"name":"Sculptures", 
 	"sensors":
 	[	
 		{"id":1,"type":"Temperature","current":23,"last":12, "unit":"C"},
